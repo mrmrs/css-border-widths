@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "border-widths"
   ],
   "css-border-widths": {
     "type": "git",
