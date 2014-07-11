@@ -54,7 +54,7 @@ or download the css on github and include in your project.
   .brw4 { border-right-width: .75rem; }
   .brw5 { border-right-width: 1rem; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .baw0-ns { border-width: 0; }
   .baw1-ns { border-width: .125rem; }
   .baw2-ns { border-width: .25rem; }
@@ -92,7 +92,7 @@ or download the css on github and include in your project.
 
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .baw0-m { border-width: 0; }
   .baw1-m { border-width: .125rem; }
   .baw2-m { border-width: .25rem; }
@@ -129,7 +129,7 @@ or download the css on github and include in your project.
   .brw5-m { border-right-width: 1rem; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .baw0-l { border-width: 0; }
   .baw1-l { border-width: .125rem; }
   .baw2-l { border-width: .25rem; }
