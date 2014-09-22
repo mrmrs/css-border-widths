@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-border-widths)
 ## File Size
 
 4.9K border-widths.css
-3.8K border-widths.min.css
+3.8K border-widths.min.css 
+530B minified and gzipped
 
 ## The Code
 ```
