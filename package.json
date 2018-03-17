@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.8"
+    "tachyons-cli": "^1.3.0"
   },
   "scripts": {
     "start": "tachyons src/css-border-widths.css > css/css-border-widths.css && tachyons src/css-border-widths.css --minify > css/css-border-widths.min.css && tachyons src/css-border-widths.css --generate-docs --package=../../package.json > readme.md"
